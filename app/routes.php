@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', 'HomeController@showWelcome');
+
+// ##################################
+// Authentication Controlers
+// ##################################
+Route::get('/auth/facebook', 'AuthController@facebook');
+Route::get('/auth/google', 'AuthController@google');

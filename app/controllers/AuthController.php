@@ -36,7 +36,7 @@ class AuthController extends BaseController {
 
 	    $data['user'] = $user;
 
-		return View::make('auth.facebook')->with($data);
+		return View::make('hello')->with($data);
 	}
 
 	public function google() {
@@ -81,7 +81,7 @@ class AuthController extends BaseController {
 
 	    $data['user'] = $user;
 
-		return View::make('auth.facebook')->with($data);
+		return View::make('hello')->with($data);
 	}
 
 	public function linkedin() {
@@ -124,7 +124,7 @@ class AuthController extends BaseController {
 		{
 		    $data['user'] = $user;
 
-			return View::make('auth.facebook')->with($data);
+			return View::make('hello')->with($data);
 		}
 	}
 }
