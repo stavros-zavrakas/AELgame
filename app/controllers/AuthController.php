@@ -85,7 +85,7 @@ class AuthController extends BaseController {
 
 	    // @todo: register the user and forward to the loggedIn splash screen
 
-		return View::make('hello')->with($data);
+		return View::make('index')->with($data);
 	}
 
 	public function linkedin() {
@@ -128,7 +128,7 @@ class AuthController extends BaseController {
 		{
 		    $data['user'] = $user;
 
-			return View::make('hello')->with($data);
+			return View::make('index')->with($data);
 		}
 	}
 }
