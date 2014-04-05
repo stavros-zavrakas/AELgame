@@ -5,8 +5,8 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.1.*",
-		"greggilbert/recaptcha": "1.0.6",
-        "nategood/httpful": "*",
+		"greggilbert/recaptcha": "1.0.7",
+        "nategood/httpful": "0.2.11",
 		"phpclasses/sasl": ">=1.0.0",
 		"phpclasses/httpclient": ">=1.0.0",
 		"phpclasses/oauth-api": ">=1.0.11"
