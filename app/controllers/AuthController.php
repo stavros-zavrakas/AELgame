@@ -36,6 +36,8 @@ class AuthController extends BaseController {
 
 	    $data['user'] = $user;
 
+	    // @todo: register the user and forward to the loggedIn splash screen
+
 		return View::make('hello')->with($data);
 	}
 
@@ -80,6 +82,8 @@ class AuthController extends BaseController {
 			exit;
 
 	    $data['user'] = $user;
+
+	    // @todo: register the user and forward to the loggedIn splash screen
 
 		return View::make('hello')->with($data);
 	}
