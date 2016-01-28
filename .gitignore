@@ -1,9 +1,0 @@
-/bootstrap/compiled.php
-/vendor
-/app/config/game.php
-composer.phar
-composer.lock
-.env.local.php
-.env.php
-.DS_Store
-Thumbs.db
