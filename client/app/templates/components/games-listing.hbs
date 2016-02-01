@@ -1,0 +1,11 @@
+<h2>{{game.title}}</h2>
+<p>Owner: {{game.owner}}</p>
+<p>Type: {{game.type}}</p>
+<p>Location: {{game.city}}</p>
+<p>Number of bedrooms: {{game.bedrooms}}</p>
+{{#if isImageShowing}}
+  <button {{action "imageHide"}}>Hide image</button>
+  <p><img src={{game.image}} alt={{game.type}} width="500"></p>
+{{else}}
+  <button {{action "imageShow"}}>Show image</button>
+{{/if}}
